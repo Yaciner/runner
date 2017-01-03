@@ -1,16 +1,15 @@
 {
-  "name": "Submarine-Shooter",
+  "name": "Runner",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "jest --collectiveCoverageFrom='[\"src/js/**/*.js\",\"!src/js/vendors/**\"]' --coverage",
-    "development": "ebpack-dev-server --open",
+    "development": "webpack-dev-server --open",
     "production": "npm run clean && npm run copy && NODE_ENV=production webpack -p",
     "copy": "copyfiles -u 1 './src/**/*.*' ./dist",
     "clean": "rimraf dist",
     "serve": "mamp ./dist"
-
   },
   "keywords": [],
   "author": "Yacine",
@@ -43,7 +42,7 @@
     "webpack-dev-server": "beta"
   },
   "repository": {
-    "url": "https://github.com/devinehowest/cod-20162017-27",
+    "url": "https://github.com/Yaciner/runner/",
     "type": "git"
   }
 }

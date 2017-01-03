@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'oil_can';
+  src:  url('oil_can.woff2') format('woff2'),
+        url('oil_can.woff') format('woff');
+}
